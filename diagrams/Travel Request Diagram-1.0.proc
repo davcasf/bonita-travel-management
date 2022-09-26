@@ -24,7 +24,7 @@
             <condition xmi:type="expression:Expression" xmi:id="_5hhx0D21Ee21U43iHD6aBQ" name="00:04:00" content="240000L" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.lang.Long"/>
           </BoundaryIntermediateEvents>
           <formMapping xmi:type="process:FormMapping" xmi:id="_ReO-QD2YEe21U43iHD6aBQ">
-            <targetForm xmi:type="expression:Expression" xmi:id="_vFf-AD2YEe21U43iHD6aBQ" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+            <targetForm xmi:type="expression:Expression" xmi:id="_5XyKgD22Ee21U43iHD6aBQ" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
           </formMapping>
           <contract xmi:type="process:Contract" xmi:id="_ReO-Qj2YEe21U43iHD6aBQ"/>
           <expectedDuration xmi:type="expression:Expression" xmi:id="_ReO-Qz2YEe21U43iHD6aBQ" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
@@ -89,7 +89,7 @@
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_f9fW5z21Ee21U43iHD6aBQ" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_f9fW5j21Ee21U43iHD6aBQ" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
           <formMapping xmi:type="process:FormMapping" xmi:id="_Rv4zST22Ee21U43iHD6aBQ">
-            <targetForm xmi:type="expression:Expression" xmi:id="_Rv4zSj22Ee21U43iHD6aBQ" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+            <targetForm xmi:type="expression:Expression" xmi:id="_5XyKgT22Ee21U43iHD6aBQ" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
           </formMapping>
           <contract xmi:type="process:Contract" xmi:id="_Rv4zSD22Ee21U43iHD6aBQ"/>
           <expectedDuration xmi:type="expression:Expression" xmi:id="_Rv4zSz22Ee21U43iHD6aBQ" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
@@ -103,8 +103,11 @@
       <data xmi:type="process:Data" xmi:id="_P8un0D2bEe21U43iHD6aBQ" documentation="Solicitud aprobada" name="approved" dataType="_ReO-XD2YEe21U43iHD6aBQ">
         <defaultValue xmi:type="expression:Expression" xmi:id="_P8un0T2bEe21U43iHD6aBQ" name="true" content="true" returnType="java.lang.Boolean"/>
       </data>
+      <data xmi:type="process:BusinessObjectData" xmi:id="_YpfLgD26Ee21U43iHD6aBQ" documentation="Solicitud de vacaciones." name="vacationRequest" dataType="_ReO-ZD2YEe21U43iHD6aBQ" className="com.company.model.VacationRequest">
+        <defaultValue xmi:type="expression:Expression" xmi:id="_YpfLgT26Ee21U43iHD6aBQ" name="" content="" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.lang.Object"/>
+      </data>
       <formMapping xmi:type="process:FormMapping" xmi:id="_ReO-RD2YEe21U43iHD6aBQ">
-        <targetForm xmi:type="expression:Expression" xmi:id="_vFf-AT2YEe21U43iHD6aBQ" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+        <targetForm xmi:type="expression:Expression" xmi:id="_5XyKgj22Ee21U43iHD6aBQ" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
       </formMapping>
       <overviewFormMapping xmi:type="process:FormMapping" xmi:id="_ReO-Rj2YEe21U43iHD6aBQ">
         <targetForm xmi:type="expression:Expression" xmi:id="_ReO-Rz2YEe21U43iHD6aBQ" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
@@ -209,59 +212,59 @@
                 </children>
                 <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fjgwoT21Ee21U43iHD6aBQ" x="37" y="-17"/>
               </children>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ReO-bj2YEe21U43iHD6aBQ" x="195" y="162"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ReO-bj2YEe21U43iHD6aBQ" x="176" y="176"/>
             </children>
             <children xmi:type="notation:Shape" xmi:id="_ReO-bz2YEe21U43iHD6aBQ" type="3002" element="_ReO-Mz2YEe21U43iHD6aBQ" fontName="Segoe UI">
               <children xmi:type="notation:DecorationNode" xmi:id="_ReO-cD2YEe21U43iHD6aBQ" type="5024">
                 <layoutConstraint xmi:type="notation:Location" xmi:id="_ReO-cT2YEe21U43iHD6aBQ" y="5"/>
               </children>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ReO-cj2YEe21U43iHD6aBQ" x="80" y="172"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ReO-cj2YEe21U43iHD6aBQ" x="61" y="186"/>
             </children>
             <children xmi:type="notation:Shape" xmi:id="_lsk04z2aEe21U43iHD6aBQ" type="3008" element="_lskN0D2aEe21U43iHD6aBQ" fontName="Segoe UI">
               <children xmi:type="notation:DecorationNode" xmi:id="_lsk05T2aEe21U43iHD6aBQ" type="5026">
                 <layoutConstraint xmi:type="notation:Location" xmi:id="_lsk05j2aEe21U43iHD6aBQ" x="79" y="-33"/>
               </children>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lsk05D2aEe21U43iHD6aBQ" x="479" y="165" width="43" height="43"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lsk05D2aEe21U43iHD6aBQ" x="460" y="179" width="43" height="43"/>
             </children>
             <children xmi:type="notation:Shape" xmi:id="_qua-ID2aEe21U43iHD6aBQ" type="3027" element="_quaXED2aEe21U43iHD6aBQ" fontName="Segoe UI" fillColor="14334392" lineColor="10710316">
               <children xmi:type="notation:DecorationNode" xmi:id="_qua-Ij2aEe21U43iHD6aBQ" type="5017"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qua-IT2aEe21U43iHD6aBQ" x="588" y="68" width="143" height="71"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qua-IT2aEe21U43iHD6aBQ" x="569" y="82" width="143" height="71"/>
             </children>
             <children xmi:type="notation:Shape" xmi:id="_5ZGC2D2aEe21U43iHD6aBQ" type="3027" element="_5ZFbwD2aEe21U43iHD6aBQ" fontName="Segoe UI" fillColor="14334392" lineColor="10710316">
               <children xmi:type="notation:DecorationNode" xmi:id="_5ZGp4D2aEe21U43iHD6aBQ" type="5017"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5ZGC2T2aEe21U43iHD6aBQ" x="590" y="233" width="139" height="69"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5ZGC2T2aEe21U43iHD6aBQ" x="571" y="247" width="139" height="69"/>
             </children>
             <children xmi:type="notation:Shape" xmi:id="_DzRisD2bEe21U43iHD6aBQ" type="3003" element="_DzQ7oD2bEe21U43iHD6aBQ" fontName="Segoe UI">
               <children xmi:type="notation:DecorationNode" xmi:id="_DzRisj2bEe21U43iHD6aBQ" type="5025">
                 <layoutConstraint xmi:type="notation:Location" xmi:id="_DzRisz2bEe21U43iHD6aBQ" y="5"/>
               </children>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DzRisT2bEe21U43iHD6aBQ" x="811" y="88"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DzRisT2bEe21U43iHD6aBQ" x="792" y="102"/>
             </children>
             <children xmi:type="notation:Shape" xmi:id="_Hs6twz2bEe21U43iHD6aBQ" type="3003" element="_Hs6GsD2bEe21U43iHD6aBQ" fontName="Segoe UI">
               <children xmi:type="notation:DecorationNode" xmi:id="_Hs6txT2bEe21U43iHD6aBQ" type="5025">
                 <layoutConstraint xmi:type="notation:Location" xmi:id="_Hs6txj2bEe21U43iHD6aBQ" y="5"/>
               </children>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Hs6txD2bEe21U43iHD6aBQ" x="811" y="252"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Hs6txD2bEe21U43iHD6aBQ" x="792" y="266"/>
             </children>
             <children xmi:type="notation:Shape" xmi:id="_ZhVLyD21Ee21U43iHD6aBQ" type="3027" element="_ZhUksD21Ee21U43iHD6aBQ" fontName="Segoe UI" fillColor="14334392" lineColor="10710316">
               <children xmi:type="notation:DecorationNode" xmi:id="_ZhVy0T21Ee21U43iHD6aBQ" type="5017"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZhVy0D21Ee21U43iHD6aBQ" x="195" y="285"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZhVy0D21Ee21U43iHD6aBQ" x="176" y="299"/>
             </children>
             <children xmi:type="notation:Shape" xmi:id="_a2lugD21Ee21U43iHD6aBQ" type="3003" element="_a2lHcD21Ee21U43iHD6aBQ" fontName="Segoe UI">
               <children xmi:type="notation:DecorationNode" xmi:id="_a2lugj21Ee21U43iHD6aBQ" type="5025">
                 <layoutConstraint xmi:type="notation:Location" xmi:id="_a2lugz21Ee21U43iHD6aBQ" y="5"/>
               </children>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a2lugT21Ee21U43iHD6aBQ" x="345" y="295"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a2lugT21Ee21U43iHD6aBQ" x="326" y="309"/>
             </children>
             <children xmi:type="notation:Shape" xmi:id="_Rv4zTD22Ee21U43iHD6aBQ" type="3005" element="_Rv4MMD22Ee21U43iHD6aBQ" fontName="Segoe UI" fillColor="14334392" lineColor="10710316">
               <children xmi:type="notation:DecorationNode" xmi:id="_Rv4zTj22Ee21U43iHD6aBQ" type="5005"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Rv4zTT22Ee21U43iHD6aBQ" x="169" y="19" width="151" height="75"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Rv4zTT22Ee21U43iHD6aBQ" x="150" y="33" width="151" height="75"/>
             </children>
             <children xmi:type="notation:Shape" xmi:id="_pe8pkD22Ee21U43iHD6aBQ" type="3008" element="_pe8CgD22Ee21U43iHD6aBQ" fontName="Segoe UI">
               <children xmi:type="notation:DecorationNode" xmi:id="_pe8pkj22Ee21U43iHD6aBQ" type="5026">
                 <layoutConstraint xmi:type="notation:Location" xmi:id="_pe8pkz22Ee21U43iHD6aBQ" y="5"/>
               </children>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pe8pkT22Ee21U43iHD6aBQ" x="365" y="165"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pe8pkT22Ee21U43iHD6aBQ" x="346" y="179"/>
             </children>
           </children>
           <styles xmi:type="notation:DescriptionStyle" xmi:id="_ReO-cz2YEe21U43iHD6aBQ"/>

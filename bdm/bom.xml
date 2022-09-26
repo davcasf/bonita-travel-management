@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<businessObjectModel xmlns="http://documentation.bonitasoft.com/bdm-xml-schema/1.0" modelVersion="1.0" productVersion="7.14.0">
+    <businessObjects>
+        <businessObject qualifiedName="com.company.model.VacationRequest">
+            <description>Solicitud de vacaciones</description>
+            <fields>
+                <field type="LONG" length="255" name="requesterBonitaBPMId" nullable="false" collection="false">
+                    <description>ID del solicitante</description>
+                </field>
+                <field type="LONG" length="255" name="reviewerBonitaBPMId" nullable="true" collection="false">
+                    <description>ID del revisor</description>
+                </field>
+                <field type="LOCALDATE" length="255" name="startDate" nullable="false" collection="false">
+                    <description>Fecha de inicio</description>
+                </field>
+                <field type="LOCALDATE" length="255" name="returnDate" nullable="false" collection="false">
+                    <description>Fecha de vuelta</description>
+                </field>
+                <field type="INTEGER" length="255" name="numberOfDays" nullable="false" collection="false">
+                    <description>Número de días</description>
+                </field>
+                <field type="STRING" length="255" name="status" nullable="false" collection="false">
+                    <description>Estado</description>
+                </field>
+                <field type="STRING" length="255" name="comments" nullable="true" collection="false">
+                    <description>Comentarios</description>
+                </field>
+                <field type="LONG" length="255" name="newRequestProcessInstanceId" nullable="false" collection="false">
+                    <description>ID de la instancia del proceso</description>
+                </field>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+    </businessObjects>
+</businessObjectModel>
